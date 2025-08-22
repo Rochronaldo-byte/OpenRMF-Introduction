@@ -7,7 +7,7 @@ This guide helps you  **set up, run simulations, and dispatch tasks for demo rob
 
 ---
 
-## **Clone the RMF Demos**
+## **Clone the RMF Demos & Launch the File**
 
 ```bash
 mkdir -p ~/rmf_ws/src
@@ -28,4 +28,9 @@ source install/setup.bash
 
 ## **Launch File**
 ros2 launch rmf_demos_gz office.launch.xml
+
+## **Assign Tasks**
+ros2 run rmf_demos_tasks dispatch_delivery -p pantry -ph coke_dispenser -d hardware_2 -dh coke_ingestor --use_sim_time
+
+ros2 run rmf_demos_tasks dispatch_patrol -p coe lounge --use_sim_time
 
