@@ -34,6 +34,4 @@ ros2 run rmf_demos_tasks dispatch_delivery -p pantry -ph coke_dispenser -d hardw
 
 ros2 run rmf_demos_tasks dispatch_patrol -p coe lounge --use_sim_time
 
-<img width="1945" height="1080" alt="Screenshot from 2025-08-22 16-21-57" src="https://github.com/user-attachments/assets/eb0cb8c0-87f6-4155-997d-caa4cc9e027f" />
-
 
