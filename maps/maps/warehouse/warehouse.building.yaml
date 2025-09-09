@@ -15,7 +15,7 @@ crowd_sim:
 graphs:
   {}
 levels:
-  Floor:
+  L1:
     doors:
       - [14, 15, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, storage_room_door], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
       - [16, 17, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, Inventory_room_door], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
@@ -31,9 +31,9 @@ levels:
       - [25, 29, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [29, 30, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [30, 26, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [27, 31, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [31, 32, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [32, 28, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [27, 31, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [31, 32, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [32, 28, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       {}
     measurements:
@@ -88,9 +88,9 @@ levels:
       - [540, 500, 0, ""]
       - [565, 500, 0, ""]
       - [565, 750, 0, ""]
-      - [905.75, 262.19799999999998, 0, tinyRobot1_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
+      - [905.75, 262.19799999999998, 0, tinyRobot1_charger, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
       - [636.90200000000004, 203.69200000000001, 0, waypoint3]
-      - [127.065, 228.76599999999999, 0, tinyRobot2_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot2], spawn_robot_type: [1, TinyRobot]}]
+      - [127.065, 228.76599999999999, 0, tinyRobot2_charger, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, tinyRobot2], spawn_robot_type: [1, TinyRobot]}]
       - [480.88600000000002, 253.84, 0, waypoint6]
       - [905.54200000000003, 403.12, 0, waypoint1]
       - [634.46199999999999, 403.12, 0, waypoint2]
