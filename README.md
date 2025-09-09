@@ -1,4 +1,4 @@
-# OpenRMF Multi-Robot Fleet Simulation Demo 🚀
+# OpenRMF Multi-Robot Fleet Simulation 🚀
 
 This repository demonstrates setting up **OpenRMF** for multi-robot fleet management, including building configurations, fleet setup, task dispatch, and simulation in RViz2 and Gazebo.
 
